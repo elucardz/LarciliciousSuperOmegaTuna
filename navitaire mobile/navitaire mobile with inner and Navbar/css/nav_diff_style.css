@@ -1,0 +1,43 @@
+body {
+	margin-top: 55px;
+	background-color: #cde3f3;
+	background-image: url(nav-diff-bg.png);
+	font-size: 20px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: Arial;
+}
+
+h1 {
+	color: #003f85;
+}
+
+.nopadding {
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 3px;
+}
+
+.headerspace {
+	margin-left: 10px;
+}
+
+.top-buffer {
+	margin-top: 20px;
+}
+
+h4 {
+	color: #00518b;
+	font-size: 25px;
+}
+
+h1, h4 {
+	font-family: "Rotis SansSerif AT", Arial, Helvetica, sans-serif; 
+}
+
+p {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+

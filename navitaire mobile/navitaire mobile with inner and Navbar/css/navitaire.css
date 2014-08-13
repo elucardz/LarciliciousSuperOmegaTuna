@@ -1,0 +1,92 @@
+html, body, a {
+	color: #FFF;
+	font-family: Rotis SansSerif, sans-serif; 
+}
+
+html, body
+{
+	height:100%;
+}
+
+p
+{
+	font-size:20px;
+}
+
+h1,h2
+{
+	font-size:320%;
+}
+
+.textShadow
+{
+	text-shadow: 3px 4px 5px rgba(0, 0, 0, 0.75);
+}
+
+@font-face 
+{
+	font-family: Rotis SansSerif;
+  src: url('Rotis SansSerif 65 Bold.otf');
+}
+
+.page-div
+{
+  height: 1050px;
+}
+
+.center-align-top
+{
+  position: absolute;
+  left: 50%;
+  top: -10%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.center-align-bottom
+{
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.inner-content
+{
+  background-color: transparent;
+  border: 300px solid #6691aa;
+  border-radius: 50%;
+  height: 135%;
+  width: 70%;
+  overflow: hidden;
+  box-sizing: initial;
+}
+
+.outer-content
+{
+  height: 150px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.top-buffer
+{
+	margin-top:20px !important;
+}
+
+.align-right,.align-right *
+{
+	text-align:right !important;
+}
+
+.align-left,.align-left *
+{
+	text-align:left !important;
+}
+
+.blackText
+{
+	color:#000;
+}
